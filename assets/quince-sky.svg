@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-label="Cielo azul claro con flores suaves">
+  <defs>
+    <linearGradient id="sky" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#e9f8ff"/>
+      <stop offset=".47" stop-color="#bfe9ff"/>
+      <stop offset="1" stop-color="#f7fbff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".35" cy=".18" r=".65">
+      <stop offset="0" stop-color="#ffffff" stop-opacity=".95"/>
+      <stop offset=".42" stop-color="#ffffff" stop-opacity=".38"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+  <rect width="1600" height="1000" fill="url(#sky)"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <g fill="none" stroke="#ffffff" stroke-linecap="round" opacity=".62">
+    <path d="M70 260c130-82 265-88 405-18 119 59 244 49 375-30 132-79 277-80 434-2 77 38 160 49 249 32" stroke-width="4"/>
+    <path d="M-20 690c151-74 294-78 429-12 127 62 254 58 381-13 143-80 293-82 451-6 105 50 218 62 339 35" stroke-width="3"/>
+  </g>
+  <g opacity=".45" filter="url(#soft)">
+    <circle cx="1260" cy="160" r="118" fill="#7fd2ff"/>
+    <circle cx="190" cy="790" r="150" fill="#ffffff"/>
+    <circle cx="1460" cy="820" r="180" fill="#a9def9"/>
+  </g>
+  <g opacity=".82">
+    <g transform="translate(125 125)">
+      <circle cx="0" cy="-18" r="18" fill="#ffffff"/>
+      <circle cx="18" cy="0" r="18" fill="#d9f3ff"/>
+      <circle cx="0" cy="18" r="18" fill="#ffffff"/>
+      <circle cx="-18" cy="0" r="18" fill="#d9f3ff"/>
+      <circle cx="0" cy="0" r="8" fill="#78c6ef"/>
+    </g>
+    <g transform="translate(1410 290) scale(.75)">
+      <circle cx="0" cy="-18" r="18" fill="#ffffff"/>
+      <circle cx="18" cy="0" r="18" fill="#d9f3ff"/>
+      <circle cx="0" cy="18" r="18" fill="#ffffff"/>
+      <circle cx="-18" cy="0" r="18" fill="#d9f3ff"/>
+      <circle cx="0" cy="0" r="8" fill="#78c6ef"/>
+    </g>
+    <g transform="translate(1320 720) scale(.9)">
+      <circle cx="0" cy="-18" r="18" fill="#ffffff"/>
+      <circle cx="18" cy="0" r="18" fill="#d9f3ff"/>
+      <circle cx="0" cy="18" r="18" fill="#ffffff"/>
+      <circle cx="-18" cy="0" r="18" fill="#d9f3ff"/>
+      <circle cx="0" cy="0" r="8" fill="#78c6ef"/>
+    </g>
+  </g>
+</svg>
