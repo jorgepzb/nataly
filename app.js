@@ -1,4 +1,4 @@
-const targetDate = new Date(2026, 4, 15, 18, 33, 0);
+const targetDate = new Date(2026, 5, 15, 18, 33, 0);
 
 const intro = document.getElementById("intro");
 const letterView = document.getElementById("letterView");
