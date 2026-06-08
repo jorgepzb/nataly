@@ -1,4 +1,4 @@
-const targetDate = new Date(2026, 5, 15, 18, 33, 0);
+const targetDate = new Date(2026, 5, 15, 15, 15, 15);
 
 const intro = document.getElementById("intro");
 const letterView = document.getElementById("letterView");
@@ -29,7 +29,7 @@ function updateCountdown() {
     fields.seconds.textContent = "00";
     openButton.disabled = false;
     openButton.hidden = false;
-    statusText.textContent = "Ya es 15 de junio y son más de las 6:33 PM. La carta está lista para Nataly.";
+    statusText.textContent = "Ya es 15 de junio y son más de las 15:15 horas con 15 segundos. La carta está lista para Nataly.";
     return;
   }
 
@@ -43,7 +43,7 @@ function updateCountdown() {
   fields.hours.textContent = pad(hours);
   fields.minutes.textContent = pad(minutes);
   fields.seconds.textContent = pad(seconds);
-  statusText.textContent = "El sobre se podrá abrir cuando llegue el 15 de junio a las 6:33 PM";
+  statusText.textContent = "El sobre se podrá abrir el 15 de junio a las 15:15 horas con 15 segundos.";
 }
 
 function showLetter() {

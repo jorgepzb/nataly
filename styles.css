@@ -121,6 +121,8 @@ h1 {
     repeating-linear-gradient(0deg, transparent 0 26px, rgba(46, 150, 205, .16) 27px);
   box-shadow: 0 10px 26px rgba(23, 101, 143, .16);
   z-index: 7;
+  color:#dcdcdc;
+  
 }
 
 .flap {
@@ -399,6 +401,12 @@ h1 {
           .letter {
             border: none;
             box-shadow: none;
+          }
+          .letter p{
+            font-size: 14px;
+          }
+          h2{
+            font-size: 18px !important;
           }
           .button-group{
             display: none;
