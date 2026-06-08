@@ -21,12 +21,14 @@ function pad(value) {
 function updateCountdown() {
   const now = new Date();
   const remaining = targetDate.getTime() - now.getTime();
+  openButton.hidden = true;
   if (remaining <= 0) {
     fields.days.textContent = "00";
     fields.hours.textContent = "00";
     fields.minutes.textContent = "00";
     fields.seconds.textContent = "00";
     openButton.disabled = false;
+    openButton.hidden = false;
     statusText.textContent = "Ya es 15 de junio y son más de las 6:33 PM. La carta está lista para Nataly.";
     return;
   }
